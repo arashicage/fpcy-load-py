@@ -1,0 +1,5 @@
+load.conf 里如果一个值太长，可以分行书写，但是换行后至少需要有一个空白字符
+
+sql_task = select tslsh,kpyf,fplx_dm,sjlx_dm,mode_,fpsl from fpcy_sjjzjk
+ where mode_ = 1 and jzzt_dm in ('0','1','2','3') and tslsh like '%6171289' and sjlx_dm = '01'
+^ 这里至少要有一个空白字符
